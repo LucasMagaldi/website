@@ -23,4 +23,13 @@
     justify-content: space-evenly;
     padding: 0 30px;
   }
+
+  div {
+    transition: transform 200ms ease-in-out;
+    cursor: pointer;
+  }
+
+  div:hover {
+    transform: scale(1.08);
+  }
 }
