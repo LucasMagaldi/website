@@ -22,8 +22,8 @@ export function Hero() {
                 <h2>Software Developer</h2>
 
                 <span>
-                    <a href=""><FaGithub size={30} color={iconColor}/></a>
-                    <a href=""><FaLinkedin size={30} color={iconColor}/></a>
+                    <a href="https://github.com/LucasMagaldi/"><FaGithub size={30} color={iconColor}/></a>
+                    <a href="https://br.linkedin.com/in/lucasserramagaldi"><FaLinkedin size={30} color={iconColor}/></a>
                 </span>
                 <p className='description'>
                     Software Developer is my passion. My duty is give the best of me to help others to achive the best in the tech world.

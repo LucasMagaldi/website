@@ -30,28 +30,6 @@
     width: fit-content;
     align-self: center;
   }
-
-  button {
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  }
-
-  button:hover {
-    transform: scale(1.05);
-  }
-
-  button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  }
 }
 
 .colorModeContainer {
@@ -64,7 +42,7 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
+  right: 10;
   width: 25px;
 }
 
@@ -73,7 +51,8 @@
 }
 
 .description {
-  max-width: 24ch;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .info {
@@ -92,6 +71,10 @@
       max-width: 350px;
       width: 350px;
     }
+  }
+
+  .description {
+    max-width: 24ch;
   }
 }
 
