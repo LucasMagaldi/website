@@ -28,6 +28,12 @@ export function Hero() {
                 <p className='description'>
                     Software Developer is my passion. My duty is give the best of me to help others to achive the best in the tech world.
                 </p>
+                <p className='description'>
+                    I love the Javascript ecossystem. Specialize to use Javascript and apply the deep concepts of it.
+                </p>
+                <p className='description'>
+                    Web 3.0 & Blockchain enthusiast.
+                </p>
             </div>
         </section>
     )
